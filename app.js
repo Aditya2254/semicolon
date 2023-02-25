@@ -85,7 +85,7 @@ app.route("/payment")
             if(err){
                 res.send(err);
             }
-            res.send("Success! "+results.affectedRows +" row(s) affected.");
+            res.sendStatus("200");
         }); 
         connection.end();
     })
@@ -138,7 +138,7 @@ app.route("/transaction")
             if(err){
                 res.send(err);
             }
-            res.send("Success! "+results.affectedRows +" row(s) affected.");
+            res.sendStatus("200");
         }); 
         connection.end();
     })
