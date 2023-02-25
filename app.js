@@ -5,8 +5,11 @@ const config = require("./config.js");
 const converter = require('json-2-csv');
 const csvToJson = require('convert-csv-to-json');
 const fs = require("fs");
+const cors = require('cors');
 
 const app = express();
+
+app.use(cors())
 
 app.use(bodyParser.urlencoded({extended: true}));
 
