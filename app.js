@@ -13,6 +13,11 @@ app.use(cors());
 
 app.use(bodyParser.urlencoded({extended: true}));
 
+app.get('/cors', (req, res) => {
+    res.set('Access-Control-Allow-Origin', '*');
+    res.send({ "msg": "This has CORS enabled 🎈" })
+    })
+
 app.route("/")
 
     .get(function(req,res) {
