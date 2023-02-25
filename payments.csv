@@ -1,0 +1,2 @@
+transaction_id,transaction_date,unit,quantity,price,currency,amount,modeOfTransaction,create_date,modified_date,isDeleted,HashDiff
+8,Thu May 23 2019 00:00:00 GMT+0530 (India Standard Time),nos,50,500,inr,50000,offline,Sat Oct 05 2019 00:00:00 GMT+0530 (India Standard Time),Sun Sep 01 2019 00:00:00 GMT+0530 (India Standard Time),no,hahsjadslkfnmejinfiounaefuio

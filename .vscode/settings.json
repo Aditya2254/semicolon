@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/51ab0d2b-4a75-45b0-97ac-6580fd1ae0ab/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/Orchimodel",
+    "appService.deploySubpath": "."
+}
